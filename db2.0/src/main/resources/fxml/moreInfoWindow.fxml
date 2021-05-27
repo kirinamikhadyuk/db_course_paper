@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="281.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.MoreInfoWindowController">
+   <children>
+      <ListView fx:id="listView" layoutX="36.0" layoutY="28.0" prefHeight="200.0" prefWidth="537.0" />
+      <Button fx:id="closeBtn" layoutX="274.0" layoutY="242.0" mnemonicParsing="false" text="Закрыть" />
+   </children>
+</AnchorPane>
